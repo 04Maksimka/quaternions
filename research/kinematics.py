@@ -142,7 +142,7 @@ def main():
     omega_history = np.array(omega_history)
 
     # Создаем фигуру с тремя подграфиками
-    fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(18, 6))
+    fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(9, 3))
 
     # Левый график - ошибки методов
     ax1.plot(errors_r2deg, label='Разложение в ряд Тейлора')
